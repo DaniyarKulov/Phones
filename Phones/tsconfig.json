@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    // "module": "commonjs",
+    "target": "ESNext",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "useUnknownInCatchVariables": false,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "files": ["./src/index.ts", "module.d.ts"],
+  "include": [
+    "src",
+    "custom.d.ts",
+	".eslintrc.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
+//"src/common/control.ts", "src/main/phones.ts","src/header/header.ts", "src/header/head.ts"

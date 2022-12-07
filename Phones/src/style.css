@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url('../src/assets/shopping-cart.svg');
+	display: flex;
+	height: 100px;
+	width: 100%;
+	background: -webkit-linear-gradient(126deg, #192422, #de66dd, #0adbae);
+	font-size: 2.5em;
+	justify-content: space-between;
+	color: #0B2349;
+	font-weight: bold;
+	font-family: fantasy;
+	font-family: 'Rubik One', sans-serif;
+	font-style: italic;
+}
+.blockFilters{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* .shop{
+	font-size: 3em;
+	margin: 0 auto;
+	/* font-family: fantasy; */
+/* font-family: 'Rubik One', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	background: #2E2F45;
+	display: table;
+	margin: 20px auto;
+	color: white;
+	border-radius: 5px;
+	mix-blend-mode: multiply;
+	padding: 5px 10px; */
+/* font-family: 'Rubik One', sans-serif; */
+/* font-size: 60px;
+	text-transform: uppercase;
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+	display: table;
+	margin: 20px auto;
+} */
+.picture {
+	margin: 0 auto;
+}
+.btn-svg{
+  background: 0 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+.basket {
+	width: 70px;
+	height: 70px;
+	padding-top: 10px;
+  cursor: pointer;
+}
+
+.main {
+	min-height: calc(100vh - 80px);
+	/* flex: 1 0 auto; */
+	background-image: url('../src/assets/background.jpg');
+	background-size: cover;
+	/* filter: blur(1px); */
+	background-repeat: no-repeat;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.block {
+	cursor: pointer;
+	opacity: .9;
+	margin: 20px;
+	width: 17em;
+	height: 30em;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: -webkit-linear-gradient(90deg, #f97060, #c398f2, #27ccf0);
+	background: linear-gradient(90deg, #f97060, #c398f2, #27ccf0);
+	border-radius: 10px;
+
+}
+
+.container {
+	padding-top: 30px;
+}
+
+.sort {
+	font-size: 1.5em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.search-container {
+	padding-top: 30px;
+}
+
+.search {
+	font-size: 1.5em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name {
+	font-size: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+/* .filter{
+	display: inline-flex;
+	color: #fff;
+	width: 20em;
+	margin: 20px;
+	order: -1;
+} */
+.main-block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.color1 {
+	cursor: pointer;
+	margin: 0 10px;
+	background-color: #27ccf0;
+	width: 2em;
+	height: 2em;
+	border-radius: 5px;
+}
+
+.color2 {
+	cursor: pointer;
+	margin: 0 10px;
+	background-color: #9c8d8d;
+	width: 2em;
+	height: 2em;
+	border-radius: 5px;
+}
+
+.color3 {
+	cursor: pointer;
+	margin: 0 10px;
+	background-color: #0026ff;
+	width: 2em;
+	height: 2em;
+	border-radius: 5px;
+}
+
+.manufacturer-title {
+	color: #fff;
+	display: inline-block;
+	padding: 30px 10px;
+}
+
+.filter {
+	margin-right: 20px;
+}
+
+.color-title {
+	color: #fff;
+	display: inline-block;
+	padding: 30px 10px;
+}
+
+.color-check:nth-child(1) {
+	background-color: #0026ff;
+}
+
+.block-basket {
+	display: flex;
+}
+
+.text {
+	margin: 40px 40px 0 15px;
+	font-size: 40px;
+  width: 40px;
+}
+
+.btn {
+	margin: 0 auto;
+	width: 12em;
+	height: 2em;
+	font-size: 1.25rem;
+	background-color: #0a65db;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.btn:active{
+  background-color: #f97060;
+}
+
+input[type='checkbox'] {
+	width: 15px;
+	height: 15px;
+}
+
+/* svg{
+
+} */
+svg:hover path{
+  /* fill:#0026ff; */
+  stroke: #0026ff;
+}
+svg:active {
+  fill:#0026ff;
+}
+.manufacturer-label {
+	color: #fff;
+	padding: 0 8px;
+	font-size: 1.2em;
+}
+
+.color-label{
+	color: #fff;
+	padding: 0 8px;
+	font-size: 1.2em;
+}
+
+.clear-hash{
+  height: 20px;
+    align-self: center;
+    font-size: 15px;
+    background-color: #0a65db;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-pop{
+position: relative;
+}
+.button-pop-open{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 12em;
+	height: 2em;
+	font-size: 1.25rem;
+	background-color: #0a65db;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+.button-pop-close{
+	width: 12em;
+	height: 2em;
+	font-size: 1.25rem;
+	background-color: #db0adb;
+	border-radius: 10px;
+	cursor: pointer;
+	position: absolute;
+}
+.popup{
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	height: 300px;
+	background-color:#0026ff;
+	position: absolute;
+
+}
+.popup-main{
+	display: flex;
+	justify-content: center;
+}
